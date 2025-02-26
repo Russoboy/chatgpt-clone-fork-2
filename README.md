@@ -81,4 +81,12 @@ The easiest way to run ChatGPT Clone is by using docker
 ```
 docker-compose up
 ```
-
+###🔹 New Features
+Logging System 📜
+Logs server start, requests, and errors to server.log for debugging.
+Error Handling ⚠️
+Catches and logs any exceptions when setting up routes or running the app.
+🔹 Why This is Useful
+✅ Better Debugging – Logs server startup, route additions, and errors.
+✅ Error Prevention – Catches exceptions when adding routes.
+✅ System Monitoring – Keeps track of server status in server.log.
